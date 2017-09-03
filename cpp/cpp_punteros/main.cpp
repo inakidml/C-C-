@@ -66,13 +66,13 @@ int main()
     cout << referenciaNumero;
     cout << "\n";
 
-    
+    cout << endl;
     struct Ficha ficha;
     strcpy(ficha.nombre, "HOLA");
     ficha.numero=2;
     
     struct Ficha *f = &ficha;
-    
+    cout << "Nombre: "<< ficha.nombre << " Número: "<< ficha.numero << endl;
     cout << "nombre del struct desde puntero: " << f->nombre;
     return 0;
 }
