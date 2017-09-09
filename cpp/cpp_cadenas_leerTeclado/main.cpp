@@ -55,8 +55,12 @@ int main(int argc, char** argv) {
     
     //strlen
     
-    cout << "tamaño con strlen(): " << strlen(frase);
-
+    cout << "tamaño con strlen(): " << strlen(frase)<<endl;
+    
+    //leer teclado con cin
+    cout<<"Escribe otra frase con cin: ";
+    cin>>frase;
+    cout<<frase<<endl;
     
     return 0;
 }
